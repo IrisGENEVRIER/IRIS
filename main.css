@@ -1,13 +1,6 @@
 @import 
 	url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
 
-body {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	height: 100%;
-	margin: 0;
-	width: 100%;
-}
-
 ul {
 list-style-type:none;
 margin:0;
