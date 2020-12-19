@@ -1,7 +1,9 @@
 /* Header */
- 
+@import 
+	url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
 header {
-	font-family:"";
+	font-family:"Yanone Kaffeesatz";
 	height: 730px;
 	text-transform: uppercase;
 	display: flex;
