@@ -11,7 +11,7 @@ header {
 }
  
 h1 {
-	font-size: 70px:
+	font-size: 90px:
 	margin: 0;
 	float: left;
 	padding: 5px;
@@ -23,7 +23,7 @@ h1 {
 nav {
 	position: fixed;
 	float: right;
-	font-size:40px;
+	font-size:50px;
 }
  
 nav ul {
@@ -34,6 +34,6 @@ nav ul {
  
 nav li {
     float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
