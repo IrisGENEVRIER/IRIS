@@ -1,3 +1,6 @@
-body {
+@font-face {
+  font-family: 'Prune';
+  src: url('Greenhouse-regular.otf');
+}body {
   font-family: Prune, sans-serif;
 }
