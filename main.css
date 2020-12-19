@@ -1,15 +1,47 @@
-ul {
-	list-style-type: none;
-	float: right;
+/* Header */
+ 
+header {
+	font-family:"";
+	height: 730px;
+	text-transform: uppercase;
+	display: flex;
+	background-color: white;
 }
-
-
-li {
-	display: inline-block;
-	float: right;
+ 
+h1 {
+	color: black; 
 }
-
-
-
-
-	  
+ 
+ 
+/* Navigation */
+ 
+nav
+{
+ position: fixed;
+ right: 0;
+}
+ 
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+ 
+nav li
+{
+    margin-right: 40px;
+}
+ 
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+ 
+nav a:hover
+{
+    color: #e02c32;
+    border-bottom: 2px solid white;
+}
