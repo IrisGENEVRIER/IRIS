@@ -74,4 +74,5 @@ a:hover {
 .call-to-action {
 	background-color: white;
 	display: inline-block;
+	justify-content: middle;
 }
