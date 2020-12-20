@@ -68,8 +68,10 @@ a:hover {
   	background-size: cover;
   	width: 100vw; 
  	height: 100vh;
+	display: block;
 }
 
 .call-to-action {
 	back-ground-color: white;
+	display: inline-block;
 }
