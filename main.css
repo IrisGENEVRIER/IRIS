@@ -1,21 +1,20 @@
 /* Header */
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
 header {
-	width: 100%;
-	color: black;
 	background-color: white;
 	position: relative;
 }
- 
+ /* Nom logo */
 h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 90px;
+	font-size: 4.5rem;
 	margin: 0;
 	float: left;
 	padding: 5px;
 	font-weight: 700;
-        font-style: bold;
-	margin: 0;
+  	font-style: bold;
+  	color: black;
 }
  
  
@@ -29,18 +28,28 @@ nav {
 nav ul {
 	list-style-type: none;
 	display: flex;
-	margin-top: 10px;
+	margin-top: 35px;
+	margin-right: 5px;
+	margin-left: 50rem;
 	
 }
  
 nav li {
-	float: left;
-    	padding-left: 15px;
-    	padding-right: 15px;
+  	float: left;
+ 	padding-left: 20px;
+  	padding-right: 20px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 500;
-        font-style: medium;
-	font-size: 30px;
+ 	font-style: medium;
+	font-size: 2rem;
 }
 
-
+	 /* couleur du lien */
+a { 
+  	color: #008080;
+  	text-decoration: none;
+  }
+ 	/* changement couleur lors passage souris */
+a:hover {
+  	color: black
+  }
