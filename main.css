@@ -4,6 +4,12 @@ header {
 	background-color: white;
 	position: relative;
   overflow: hidden;
+  width: 100vw; 
+  vertical-align: bottom;
+
+
+
+
 }
  
 h1 {
@@ -15,49 +21,49 @@ h1 {
 	font-weight: 700;
   font-style: bold;
   color: black;
+  display: inline-block; 
+   
+
 }
  
  
 /* Navigation */
  
 nav {
-	position: absolute;
+	position: relative;
 	float: right;
   color: #008080;
+  display: inline-block;   
 }
  
 nav ul {
 	list-style-type: none;
 	display: flex;
-	margin-top: 35px;
   margin-right: 5px;
-  margin-left: 50rem;
   color: #008080;
 	
 }
  
 nav li {
   float: left;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 500;
   font-style: medium;
 	font-size: 2rem;
   color: #008080;
+  margin-top: 1.005rem;
+
 }
 
 a {
-  color:#008080; /*  couleur lien */
+  color:#008080;
   }
-
 a:hover {
-  color:black; /* change couleur lors passage souris sur lien */
+  color:black;
   }
-
-/* Hero */
-
-class.hero {
+.hero {
   background-image: url("https://images.unsplash.com/photo-1529480780361-c8cb81eb5735?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
   background-size: cover;
   width: 100vw; 
