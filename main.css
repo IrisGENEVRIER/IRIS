@@ -3,9 +3,9 @@
 header {
 	background-color: white;
 	position: relative;
-  overflow: hidden;
-  width: 100vw; 
-  vertical-align: bottom;
+  	overflow: hidden;
+  	width: 100vw; 
+  	vertical-align: bottom;
 
 
 
@@ -19,9 +19,9 @@ h1 {
 	float: left;
 	padding: 5px;
 	font-weight: 700;
-  font-style: bold;
-  color: black;
-  display: inline-block; 
+  	font-style: bold;
+  	color: black;
+  	display: inline-block; 
    
 
 }
@@ -32,41 +32,41 @@ h1 {
 nav {
 	position: relative;
 	float: right;
-  color: #008080;
-  display: inline-block;   
+  	color: #008080;
+  	display: inline-block;   
 }
  
 nav ul {
 	list-style-type: none;
 	display: flex;
-  margin-right: 5px;
-  color: #008080;
+  	margin-right: 5px;
+  	color: #008080;
 	
 }
  
 nav li {
-  float: left;
-  padding-left: 30px;
-  padding-right: 30px;
+  	float: left;
+  	padding-left: 30px;
+  	padding-right: 30px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-weight: 500;
-  font-style: medium;
+  	font-style: medium;
 	font-size: 2rem;
-  color: #008080;
-  margin-top: 1.005rem;
+  	color: #008080;
+ 	margin-top: 1.005rem;
 
 }
 
 a {
-  color:#008080;
+  	color:#008080;
   }
 a:hover {
-  color:black;
+  	color: black;
   }
 .hero {
-  background-image: url("https://images.unsplash.com/photo-1529480780361-c8cb81eb5735?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
-  background-size: cover;
-  width: 100vw; 
-  height: 100vh;
+  	background-image: url("https://images.unsplash.com/photo-1529480780361-c8cb81eb5735?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+  	background-size: cover;
+  	width: 100vw; 
+ 	height: 100vh;
 }
 
