@@ -74,6 +74,8 @@ a:hover {
 	background-color: red;
 	width: 200px; 
  	height: 100px;
+	display: inline-block;
+	float: left;
 	
 	
 }
